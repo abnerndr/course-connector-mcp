@@ -1,0 +1,3 @@
+[submodule "vendor/course-connector"]
+	path = vendor/course-connector
+	url = https://github.com/abnerndr/course-connector.git

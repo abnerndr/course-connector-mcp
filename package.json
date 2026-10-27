@@ -1,0 +1,25 @@
+{
+  "name": "@pace/mcp",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22.14"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "check": "tsc -p tsconfig.json",
+    "test": "tsx src/smoke.ts"
+  },
+  "dependencies": {
+    "@pace/core": "file:vendor/course-connector/packages/core",
+    "@modelcontextprotocol/sdk": "^1.25.0",
+    "zod": "^3.25.76",
+    "tsx": "^4.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}
